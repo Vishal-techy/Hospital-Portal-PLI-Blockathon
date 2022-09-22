@@ -109,8 +109,7 @@ function previousHealthRecords() {
 
             <div className={styles.liveDataCard}>
                 <div className={styles.flexRow}>
-                    <div className={styles.dataName}>Abdominal 
-Ultrasonogram</div>
+                    <div className={styles.dataName}>Abdominal Ultrasonogram</div>
                     <div className={styles.dataTime}>07-DEC-2021</div>
                 </div>
 
