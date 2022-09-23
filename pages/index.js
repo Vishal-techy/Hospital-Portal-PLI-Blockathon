@@ -26,9 +26,9 @@ export default function Home() {
             <div className={styles.Searchbox}>
 
               <div className={styles.homebox3}>
-                <Image
+                {/* <Image
               src={search}
-              />
+              /> */}
               </div>
               
               <p  className={styles.Searchboxtext}>Search</p>
@@ -118,7 +118,7 @@ export default function Home() {
         <div  className={styles.blackbox1}>
            <h3 className={styles.blackboxtxt1}>Health Graph</h3>
            <h2 className={styles.blackboxtxt2}>Surya Narayanan</h2>
-           <h4 className={styles.blackboxtxt3}>On 8th September, Surya Narayanan has <br/> undergone a regular health check up at the <br/> Apollo Hospital, Chennai. Treatment provided <br/> by Dr. V. Ragavendran at 6PM in the evening.</h4>
+           <h4 className={styles.blackboxtxt3}>On 8th September, Surya Narayanan has undergone a regular health check up at the Apollo Hospital, Chennai. Treatment provided by Dr. V. Ragavendran at 6PM in the evening.</h4>
         </div>
 
                 <div  className={styles.hlinebox}>  <div className={styles.hline} /></div> 
@@ -232,7 +232,7 @@ export default function Home() {
                      <div className={styles.libox}></div>
 
                      <div className={styles.twords}>
-                       <h3 className={styles.txtwbox}>Ciprofloxacin</h3>
+                       <h3 className={styles.txtwbox}>Antibiotics</h3>
                        <h4 className={styles.txtwbox2}>Since 2002</h4>
                      </div>
                      
