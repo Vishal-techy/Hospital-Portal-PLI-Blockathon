@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+
+/* my code starts here */
+.Searchbox {
+    height: 5vh;
+    width: 30vw;
+    margin-left: 10vw;
+    background-color: white;
+    border-radius: 0.5vw;
+    border: solid;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .Topbar {
+    height: 10vh;
+    width: 100vw;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+  }
+  .Searchboxtext {
+    font-family: "Alegreya Sans", sans-serif;
+    color: black;
+    font-weight: 200;
+    opacity: 50%;
+  }
+  
+  .homebox {
+    height: 5vh;
+    width: 2.5vw;
+    background-color: white;
+    margin-left: 30vw;
+    border-radius: 0.5vw;
+  }
+  .homebox3 {
+    height: 5vh;
+    width: 2.5vw;
+    background-color: white;
+    /* margin-left: 30vw; */
+    border-radius: 0.5vw;
+    margin-right: 1vw;
+  }
+  .homebox4 {
+    height: 5vh;
+    width: 2.5vw;
+    /* background-color: white; */
+    margin-left: 0.8vw;
+    border-radius: 0.5vw;
+    margin-right: 1vw;
+  }
+  .homebox2 {
+    height: 5vh;
+    width: 2.5vw;
+    background-color: white;
+    margin-left: 1vw;
+    border-radius: 0.5vw;
+  }
+  .hometxt {
+    font-family: "Alegreya Sans", sans-serif;
+    color: black;
+    margin-left: -1vw;
+    margin-right: 1vw;
+    /* margin-top:-.01vw; */
+  }
+  
+  .Topbar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+  }
+
+  .heading {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .backgroundBox {
+    width: 90vw;
+    height:600px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  .inputbox{
+    border: solid 1px;
+    border-radius: 5px;
+    height:50px;
+    width:500px;
+    margin-bottom:30px;
+    margin-left: 150px;
+    color: #C2C2C2;
+  }
+  .inputbox2{
+    border: solid 1px;
+    border-radius: 5px;
+    height:50px;
+    width:500px;
+    margin-bottom:30px;
+    margin-left:50px;
+    color: #C2C2C2;
+  }
+  .inputflexbox{
+    width: 90vw;
+    height:300px;
+    border-radius: 20px;
+    /* background-color: #ffff00; */
+    margin: 0 auto;
+    display:flex ;
+    flex-direction: row;
+
+  }
+  .insideinputflexbox{
+    width: 45vw;
+    height:300px;
+    border-radius: 20px;
+    /* background-color: #00ff00; */
+    margin: 0 auto;
+    display:flex ;
+    flex-direction: column;
+  }
+  .insideinputflexbox2{
+    width: 45vw;
+    height:300px;
+    border-radius: 20px;
+    /* background-color: #00ff; */
+    margin: 0 auto;
+    display:flex ;
+    flex-direction: column;
+  }
+
+  .uploadbtn{
+    border: solid 1px;
+    border-radius: 5px;
+    height:40px;
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:50px;
+  }
+  .uploadbtntxt{
+    font-size:20px;
+    font-family: Alegreya Sans;
+  }
+  .uploadbtnbg{
+    height:90px;
+    width: 90vw;
+    /* background-color: #00ff00; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .uploadbtn2{
+    border: solid 1px;
+    border-radius: 5px;
+    height:40px;
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:50px;
+    background-color: #000000;
+  }
+  .uploadbtntxt2{
+    font-size:20px;
+    font-family: Alegreya Sans;
+    color: #ffffff;
+  }
